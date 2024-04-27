@@ -1,0 +1,114 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.navbar-logo{
+ width: 190px;
+ }
+
+ .bg-darknav{
+    background-color:#212529 ;
+ }
+
+ .form-inline{
+    display: flex;
+ }
+
+ body{
+    background-color: #03001C;
+ }
+
+.nav-item {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.carousel-item {
+    width:100%;
+    height:calc(100vh - 104px);
+  }
+
+.carousel-item img{
+    object-fit: cover;
+    
+}
+
+.cardimage-wrapper{
+    width: 100%;
+    top: 0;
+}
+
+.footer{
+    background-color:#212529 ;
+ }
+
+.hero_banner{
+    object-fit: contain; 
+    width: 100%; 
+    height: 100% 
+}
+
+.backdrop{
+    background-color: #212529 
+}
+
+.backdrop h1{
+    color: whitesmoke
+}
+
+.banner_text{
+    text-align: center;
+}
+
+
+.banner_image img{
+    width: 150px !important;
+    height: 100%;
+}
+
+.banner_text{
+    font-size: 70px;
+    align-items: first baseline;
+    color: whitesmoke
+}
+
+.banner_text_content{
+    font-size: 70px;
+    align-items: center justify;
+    color: whitesmoke
+}
+
+.mid_navbar{
+    background-color: whitesmoke;
+}
+
+.nav-item1{
+    color: black;
+}
+
+.mid-body{
+    background-color: whitesmoke;
+}
+
+.theatre_image img{
+    object-fit: contain;
+    width: 100%; 
+    height: 100%;
+    
+}
+
+.text-align-justify{
+    text-align: justify;
+}
+
+.banner_image img{
+    width: 150px !important;
+    height: 100%;
+}
+
+.search-bar{
+    max-width: 200px;
+    margin-left: auto;
+}

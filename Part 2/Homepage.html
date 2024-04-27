@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Brisway">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Brisway </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darknav ">
+            <a class="navbar-brand" href="Homepage.html"> <img src="Assets/Brisway_logo.png" class= "navbar-logo"  alt="Brisway"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mr-auto">
+                    <div class="dropdown mr-4">
+                        <a class="nav-item navlink dropdown-toggle" 
+                            data-toggle="dropdown" id="showsDropdown"
+                            href="#">Shows</a>
+                            <div class="dropdown-menu" aria-labelledby="showsDropdown">
+                                <a class="dropdown-item" href="itemDetailPage.html"> All Shows </a>
+                                <a class="dropdown-item" href="itemDetailPage.html"> Musicals </a>
+                                <a class="dropdown-item" href="itemDetailPage.html"> Plays </a>
+                            </div>
+                            
+                    </div>
+                    <div class="dropdown mr-4">
+                        <a class="nav-item navlink dropdown-toggle" 
+                        data-toggle="dropdown" id="theatresDropdown"
+                        href="#">Theatres</a>     
+                        <div class="dropdown-menu" aria-labelledby="theatresDropdown">
+                            <a class="dropdown-item" href="itemDetailPage.html"> Theatres A-Z </a>
+                            <a class="dropdown-item" href="itemDetailPage.html"> Brisbane Theatre Maps </a>
+                            <a class="dropdown-item" href="itemDetailPage.html"> Brisbane Theatre Scene </a>
+                        </div>
+                    </div>             
+                    
+                    <a class="nav-item navlink mr-4" href="itemDetailPage.html">News</a>
+                    <a class="nav-item navlink mr-4" href="itemDetailPage.html">My Order</a>
+                </div>
+
+            </div>
+                     
+              
+            <form class="my-2 my-lg-0 d-flex w-100 align-items-center ml-auto">
+                <input class="form-control search-bar mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="itemDetailPage.html">
+                <img class="d-block w-100" src="Assets/hamilton_carousel.jpg" alt="First slide">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h1><b>Hamilton</b></h1>
+                  <p><b>Experience Lin Manuel Miranda's masterpiece</b></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="itemDetailPage.html">
+                <img class="d-block w-100" src="Assets/hadestown_carousel.jpeg" alt="Second slide">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h1><b>Hadestown</b></h1>
+                  <p><b>Take a trip down to Hadestown, this week's most popular musical</b></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="itemDetailPage.html">
+                <img class="d-block w-100" src="Assets/harrypotter_carousel2.jpg" alt="Third slide">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h1><b>Harry Potter and the Cursed Child</b></h1>
+                  <p><b> Catch the magic now! -Time Out New York</b></p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>      
+    </header>
+
+
+
+      <section> 
+          <div class="container-xl">
+            <div class="row pt-5">
+              <div class="col-6 col-lg-3 pb-4">
+                <article class="card h-100">
+                  <div class = cardimage-wrapper>
+                    <a href="itemDetailPage.html">
+                    <img class="card-img-top"
+                      src="Assets/lesmis_card.jpg"
+                      alt="Les Miserables">
+                    </a>
+                  </div>                  
+                  <div class="card-body">
+                      <h4 class="card-title">Les Misérables</h4>
+                      <p class="card-text"> Experience Schoenberg's best musical. </p>
+                      <p class="card-text"><small class="text">From <b>$60</b></small></p>
+                  </div>
+                  <div class="card-footer"><a href="itemDetailPage.html" class="btn btn-primary">Buy Tickets</a></div>
+              </article>
+              </div>
+
+              <div class="col-6 col-lg-3 pb-4">
+                <article class="card h-100">
+                  <a href="itemDetailPage.html">
+                  <img class="card-img-top"
+                      src="Assets/hamilton_card2.jpg"
+                      alt="Hamilton">
+                  </a>
+                  <div class="card-body">
+                      <h4 class="card-title">Hamilton</h4>
+                      <p class="card-text"> A fresh look at the era of the Founding Fathers.</p>
+                      <p class="card-text"><small class="text">From <b>$100</b></small></p>
+                  </div>
+                  <div class="card-footer"><a href="itemDetailPage.html" class="btn btn-primary">Buy Tickets</a></div>
+              </article>
+              </div>
+              
+              <div class="col-6 col-lg-3 pb-4">
+                <article class="card h-100">
+                  <a href="itemDetailPage.html">
+                  <img class="card-img-top"
+                      src="Assets/wicked3_card.jpg"
+                      alt="Wicked">
+                  </a>
+                  <div class="card-body">
+                      <h4 class="card-title">Wicked</h4>
+                      <p class="card-text"> Meet the witches of Oz before Dorothy dropped in.</p>
+                      <p class="card-text"><small class="text">From <b>$70</b></small></p>
+                  </div>
+                  <div class="card-footer"><a href="itemDetailPage.html" class="btn btn-primary">Buy Tickets</a></div>
+              </article>
+              </div>
+
+              <div class="col-6 col-lg-3 pb-4">
+                <article class="card h-100">
+                  <a href="itemDetailPage.html">
+                  <img class="card-img-top"
+                      src="Assets/lionking_card.jpg"
+                      alt="Lion King">
+                  </a>
+                  <div class="card-body">
+                      <h4 class="card-title">The Lion King</h4>
+                      <p class="card-text"> Pride Rock comes to life in Disney’s long-running hit. </p>
+                      <p class="card-text"><small class="text">From <b>$70</b></small></p>
+                  </div>
+                  <div class="card-footer"><a href="itemDetailPage.html" class="btn btn-primary">Buy Tickets </a></div>
+              </article>
+              </div>              
+            </div>
+          </div>
+          <div class="container-xl">
+            <div class="row">
+              <div class="col-6 col-lg-3 pb-4">
+                <article class="card h-100">
+                  <a href="itemDetailPage.html">
+                  <img class="card-img-top"
+                      src="Assets/bookofmormon_card.jpg"
+                      alt="Book of Mormon">
+                  </a>
+                  <div class="card-body">
+                      <h4 class="card-title">Book of Mormon</h4>
+                      <p class="card-text"> The nine-time Tony Award-winning Best Musical. </p>
+                      <p class="card-text"><small class="text">From <b>$80</b></small></p>
+                  </div>
+                  <div class="card-footer"><a href="itemDetailPage.html" class="btn btn-primary">Buy Tickets</a></div>
+              </article>
+              </div>
+
+              <div class="col-6 col-lg-3 pb-4">
+                <article class="card h-100">
+                  <a href="itemDetailPage.html">
+                  <img class="card-img-top"
+                      src="Assets/phantomoftheopera_card.jpg"
+                      alt="The Phantom Of The Opera">
+                  </a>
+                  <div class="card-body">
+                      <h4 class="card-title">The Phantom of the Opera</h4>
+                      <p class="card-text"> Listen out for Andrew Lloyd Webber's music of the night.</p>
+                      <p class="card-text"><small class="text">From <b>$65</b></small></p>
+                  </div>
+                  <div class="card-footer"><a href="itemDetailPage.html" class="btn btn-primary">Buy Tickets</a></div>
+              </article>
+              </div>
+              
+              <div class="col-6 col-lg-3 pb-4">
+                <article class="card h-100">
+                  <a href="itemDetailPage.html">
+                  <img class="card-img-top"
+                      src="Assets/harrypotter_card.jpg"
+                      alt="Harry Potter and the Cursed Child">
+                  </a>
+                  <div class="card-body">
+                      <h4 class="card-title">Harry Potter and the Cursed Child</h4>
+                      <p class="card-text"> It's time to believe in magic again.</p>
+                      <p class="card-text"><small class="text">From <b>$90</b></small></p>
+                  </div>
+                  <div class="card-footer"><a href="itemDetailPage.html" class="btn btn-primary">Buy Tickets</a></div>
+              </article>
+              </div>
+
+              <div class="col-6 col-lg-3 pb-4">
+                <article class="card h-100">
+                  <a href="itemDetailPage.html">
+                  <img class="card-img-top"
+                      src="Assets/tina_card.jpg"
+                      alt="Tina: The Tina Turner Musical">
+                  </a>
+                  <div class="card-body">
+                      <h4 class="card-title">Tina: The Tina Turner Musical</h4>
+                      <p class="card-text"> Party with the queen of rock and roll in simply the best Brisway musical </p>
+                      <p class="card-text"><small class="text">From <b>$70</b></small></p>
+                  </div>
+                  <div class="card-footer"><a href="itemDetailPage.html" class="btn btn-primary">Buy Tickets </a></div>
+              </article>
+              </div>
+            </div>      
+          </div>
+
+          <footer class="footer">
+            <div class="text-center py-2">
+                <span class="text-light">Copyright &copy; 2023</span>
+            </div>
+          </footer>
+
+
+
+
+       
+
+
+
+
+
+
+
+    
+
+    
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+
+
+</html>
